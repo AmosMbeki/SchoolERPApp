@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "598729075775",
+    "project_id": "shinningstar-2b828",
+    "storage_bucket": "shinningstar-2b828.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:598729075775:android:ac0905d8899ede228e9c8a",
+        "android_client_info": {
+          "package_name": "it.com.ke"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "598729075775-a1a8bh6ntjl69goe2olu9t1lmkkh0r53.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANEIVoT5oFAdE8EbxhUE7LphNoj-BxJzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "598729075775-a1a8bh6ntjl69goe2olu9t1lmkkh0r53.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
