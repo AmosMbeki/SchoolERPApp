@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mainui.Students"
+    android:background="#dcdc"
+    >
+
+    <EditText
+        android:id="@+id/adm"
+        android:textColorHint="#080000"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Student Admission Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:textColorHint="#080000"
+        android:layout_marginBottom="10dp"
+        android:hint="Student Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <EditText
+        android:id="@+id/stream"
+        android:textColorHint="#080000"
+        android:layout_marginBottom="10dp"
+        android:hint="Stream"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        />
+
+    <Button
+        android:id="@+id/capdata_btn"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        android:text="Capture Data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>

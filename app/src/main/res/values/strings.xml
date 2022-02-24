@@ -3,4 +3,7 @@
     <string name="enter_your_email">Enter your Email</string>
     <string name="enter_your_password">Enter your Password</string>
     <string name="login_here">Login Here</string>
+    <string name="sign_up_here">Sign Up Here</string>
+    <string name="register">Register</string>
+    <string name="registered_login_here">Registered ? Login Here</string>
 </resources>

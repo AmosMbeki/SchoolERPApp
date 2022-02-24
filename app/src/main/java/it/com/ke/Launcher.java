@@ -15,6 +15,7 @@ public class Launcher extends AppCompatActivity {
     private EditText myEmail;
     private EditText myPassword;
     private Button myLogin;
+    private Button myRegister;
     private String x_email, x_password;
 
     @Override
@@ -25,6 +26,16 @@ public class Launcher extends AppCompatActivity {
         myEmail =  findViewById(R.id.myemail);
         myPassword = findViewById(R.id.mypassword);
         myLogin = findViewById(R.id.btn_button);
+        myRegister = findViewById(R.id.btn_signup);
+
+        myRegister.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent signUp = new Intent(Launcher.this, RegisterActivity.class);
+
+                startActivity(signUp);
+            }
+        });
 
         myLogin.setOnClickListener(new View.OnClickListener() {
             @Override

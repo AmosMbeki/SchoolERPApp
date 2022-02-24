@@ -39,15 +39,26 @@
         android:hint="@string/enter_your_password"
         />
 
-    <Button
+    <EditText
         android:layout_below="@id/mypassword"
+        android:id="@+id/myphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:hint="Enter your phone number"
+        />
+
+    <Button
+        android:layout_below="@id/myphone"
         android:id="@+id/btn_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="@string/login_here"
+        android:text="@string/register"
         />
 
     <Button
@@ -59,8 +70,8 @@
         android:layout_marginTop="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
-        android:text="@string/sign_up_here"
+        android:text="@string/registered_login_here"
         />
 
-<!--    android:layout_below="@id/btn_button"-->
+    <!--    android:layout_below="@id/btn_button"-->
 </RelativeLayout>

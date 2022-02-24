@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/student"
+        android:icon="@drawable/student"
+        android:title="Student"
+        />
+    <item
+        android:id="@+id/teacher"
+        android:icon="@drawable/teacher"
+        android:title="Teachers"
+        />
+    <item
+        android:id="@+id/attendance"
+        android:icon="@drawable/form"
+        android:title="Attendance"
+        />
+</menu>
